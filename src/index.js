@@ -21,7 +21,7 @@ exports.avg = function avg (array) {
     if (array == undefined || array.length == 0) return 0;
     let avg = 0;
     for (const item of array) {
-        avg += item;
+      avg += item;
     }
     avg = avg / array.length;
     return avg;
